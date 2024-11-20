@@ -5,7 +5,7 @@ function filterArray(numbers, value) {
       filteredNumbers.push(number)
     }
   }
-  return numbers > value
+  return filteredNumbers
 }
 
 console.log(filterArray([1, 2, 3, 4, 5], 3)) // [4, 5]
